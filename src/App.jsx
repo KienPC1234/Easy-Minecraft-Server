@@ -9,7 +9,6 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        {/* Định nghĩa các route và layout */}
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />

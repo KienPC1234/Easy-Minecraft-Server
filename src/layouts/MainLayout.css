@@ -1,0 +1,53 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #3c2f2f;
+    /* Minecraft dirt block brown */
+}
+
+.minecraft-navbar {
+    font-family: 'Minecraft', monospace;
+    /* Use a Minecraft-like font */
+    background-color: #355e3b !important;
+    /* Minecraft grass green */
+}
+
+.minecraft-sidebar {
+    background-color: #4a3728;
+    /* Minecraft oak wood brown */
+    color: #fff;
+    font-family: 'Minecraft', monospace;
+}
+
+.minecraft-nav-link {
+    color: #fff !important;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    transition: transform 0.2s;
+}
+
+.minecraft-nav-link:hover {
+    transform: scale(1.1);
+    color: #00ff00 !important;
+    /* Neon green hover */
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #8b8b8b;
+    /* Minecraft stone gray */
+    overflow-y: auto;
+}
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url('https://fonts.cdnfonts.com/css/minecraft-4') format('truetype');
+}
